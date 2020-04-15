@@ -1,7 +1,7 @@
 {
     "runtime": {
         "arguments": "--v=1 --inspect",
-        "version": "canary"
+        "version": "alpha"
     },
     "shortcut": {
         "company": "OpenFin",
@@ -40,7 +40,12 @@
         "defaultViewOptions": {
             "experimental": {
                 "childWindows": true
-            }
+            },
+            "preloadScripts": [
+                {
+                    "url": "http://localhost:5555/js/preload.js"
+                }
+            ]
         },
         "commands": [
             {

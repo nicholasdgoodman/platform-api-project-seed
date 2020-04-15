@@ -91,9 +91,66 @@ class LeftMenu extends HTMLElement {
 
     async newDefaultWindow() {
         //we want to add a chart in a new window.
-        return fin.Platform.getCurrentSync().createView({
-            url: chartUrl
-        }, undefined);
+        // return fin.Platform.getCurrentSync().createView({
+        //     url: chartUrl
+        // }, undefined);
+        return fin.Platform.getCurrentSync().createWindow({
+            "layout": {
+                "content": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "height": 50,
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "componentName": "view",
+                            "componentState": {
+                              "url": "https://www.google.com",
+                              "name": "component_1586980362912"
+                            },
+                            "isClosable": true,
+                            "reorderEnabled": true,
+                            "title": "view"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "height": 50,
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "componentName": "view",
+                            "componentState": {
+                              "url": "https://www.example.com",
+                              "name": "component_1586980419776"
+                            },
+                            "isClosable": true,
+                            "reorderEnabled": true,
+                            "title": "view"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+        });
     }
 
     async nonLayoutWindow() {

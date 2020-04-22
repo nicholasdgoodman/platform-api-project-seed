@@ -116,7 +116,7 @@ class LeftMenu extends HTMLElement {
                             "type": "component",
                             "componentName": "view",
                             "componentState": {
-                              "url": "https://www.google.com",
+                              "url": "http://localhost:3000",
                               "name": "component_1586980362912"
                             },
                             "isClosable": true,
@@ -137,7 +137,7 @@ class LeftMenu extends HTMLElement {
                             "type": "component",
                             "componentName": "view",
                             "componentState": {
-                              "url": "https://www.example.com",
+                              "url": "https://www.nasdaq.com/market-activity/stocks/aapl",
                               "name": "component_1586980419776"
                             },
                             "isClosable": true,

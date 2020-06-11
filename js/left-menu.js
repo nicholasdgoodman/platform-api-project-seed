@@ -21,6 +21,11 @@ class LeftMenu extends HTMLElement {
                 processAffinity: 'ps_1'
             },
             {
+                url: 'http://localhost:8050',
+                printName: 'Dash Chart',
+                processAffinity: 'dp_1'
+            },
+            {
                 url: 'https://www.tradingview.com/chart/?symbol=NASDAQ:AAPL',
                 printName: 'TradeView',
                 processAffinity: 'tv_1'

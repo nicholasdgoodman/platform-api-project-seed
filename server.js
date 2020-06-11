@@ -1,6 +1,7 @@
 const httpServer = require('http-server');
 const path = require('path');
 const fs = require('fs');
+const childProcess = require('child_process');
 
 const { launch, connect } = require('hadouken-js-adapter');
 
@@ -52,3 +53,5 @@ server.listen(serverParams.port);
         console.error(err);
     }
 })();
+
+childProcess.exec('python dash/app.py');

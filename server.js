@@ -54,4 +54,5 @@ server.listen(serverParams.port);
     }
 })();
 
-childProcess.exec('python dash/app.py');
+childProcess.exec('python dash/app1/app.py');
+childProcess.exec('python dash/app2/app.py');

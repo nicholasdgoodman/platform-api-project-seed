@@ -6,3 +6,7 @@ body {
 .dash-graph text {
     fill: var(--body-font-color)!important;
 }
+
+.Select-menu-outer {
+    background-color: var(--main-background-color);
+}

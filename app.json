@@ -12,22 +12,33 @@
     "platform": {
         "uuid": "platform_customization_local",
         "applicationIcon": "https://openfin.github.io/golden-prototype/favicon.ico",
+        "saveWindowState": false,
         "autoShow": true,
+        "waitForPageLoad": true,
+        "state": "maximized",
+        "opacity": 0,
         "providerUrl": "http://localhost:5555/provider.html",
         "backgroundColor": "#161615",
-        "state": "maximized",
+        "preloadScripts": [
+            {
+                "url": "http://localhost:5555/js/preload-example-script.js"
+            }
+        ],
         "defaultWindowOptions": {
+            "saveWindowState": false,
+            "autoShow": true,
+            "waitForPageLoad": true,
+            "state": "maximized",
+            "opacity": 0,
             "contextMenu": true,
             "defaultWidth": 600,
             "defaultHeight": 600,
             "defaultLeft": 0,
             "defaultTop": 0,
-            "saveWindowState": false,
             "minHeight": 445,
             "minWidth": 308,
             "backgroundColor": "#161615",
             "showBackgroundImages": true,
-            "state": "maximized",
             "preloadScripts": [
                 {
                     "url": "http://localhost:5555/js/preload-example-script.js"

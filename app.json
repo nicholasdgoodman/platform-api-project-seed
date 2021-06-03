@@ -14,9 +14,8 @@
         "applicationIcon": "https://openfin.github.io/golden-prototype/favicon.ico",
         "saveWindowState": false,
         "autoShow": true,
-        "waitForPageLoad": true,
-        "state": "maximized",
         "opacity": 0,
+        "state": "maximized",
         "providerUrl": "http://localhost:5555/provider.html",
         "backgroundColor": "#161615",
         "preloadScripts": [
@@ -26,10 +25,8 @@
         ],
         "defaultWindowOptions": {
             "saveWindowState": false,
-            "autoShow": true,
-            "waitForPageLoad": true,
-            "state": "maximized",
             "opacity": 0,
+            "state": "maximized",
             "contextMenu": true,
             "defaultWidth": 600,
             "defaultHeight": 600,

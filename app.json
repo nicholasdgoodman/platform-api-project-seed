@@ -12,7 +12,6 @@
     "platform": {
         "uuid": "platform_customization_local",
         "applicationIcon": "https://openfin.github.io/golden-prototype/favicon.ico",
-        "saveWindowState": false,
         "autoShow": true,
         "opacity": 0,
         "state": "maximized",
@@ -24,7 +23,6 @@
             }
         ],
         "defaultWindowOptions": {
-            "saveWindowState": false,
             "autoShow": true,
             "opacity": 0,
             "state": "maximized",

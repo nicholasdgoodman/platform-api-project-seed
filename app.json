@@ -25,6 +25,7 @@
         ],
         "defaultWindowOptions": {
             "saveWindowState": false,
+            "autoShow": true,
             "opacity": 0,
             "state": "maximized",
             "contextMenu": true,
